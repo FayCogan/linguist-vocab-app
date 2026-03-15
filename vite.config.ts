@@ -7,7 +7,7 @@ export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
     // ADD THIS LINE BELOW (Replace 'Linguist' with your exact repo name)
-    base: '/linguist-vocab-app/', 
+    base: '/Linguist/', 
     
     plugins: [react(), tailwindcss()],
     define: {
